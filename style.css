@@ -33,3 +33,11 @@ p.productos::before {
     content: counter(cuenta-productos);
     counter-increment: cuenta-productos;
 }
+
+img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: +700px;
+    top: -400px;
+}
